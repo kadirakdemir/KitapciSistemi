@@ -1,0 +1,24 @@
+﻿@model KitapciSistemi.Core.DataBase.Entities.Urun
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("Index", "deneme", FormMethod.Post))
+{
+<div class="container-fluid">
+    <div class="row">
+        <div class="form-group">
+            <div class="col-md-4">
+                @Html.DropDownListFor(x => x.Aciklama, new SelectList(ViewBag.Mesaj, "ID", "KategoriAdi"), ("Seçiniz"))
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4">
+            <input type="submit" value="Kaydet" />
+            </div>
+        </div>
+    </div>
+</div>
+}

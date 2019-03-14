@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="KitapciContext-Web.config Connection String" description="KitapciContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:mvcveritabanlari.database.windows.net,1433;Initial Catalog=KitapDB;Persist Security Info=False;User ID=kadir;Password=mvcka-17;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MK\\Documents\\Visual\ Studio\ 2015\\Projects\\KitapciSistemi\\KitapciSistemi\.Admin\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KitapciContext']/@connectionString" />
+  </parameter>
+</parameters>

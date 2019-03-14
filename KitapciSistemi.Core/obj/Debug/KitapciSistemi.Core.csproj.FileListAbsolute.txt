@@ -1,0 +1,5 @@
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Core\bin\Debug\KitapciSistemi.Core.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Core\bin\Debug\KitapciSistemi.Core.pdb
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Core\obj\Debug\KitapciSistemi.Core.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Core\obj\Debug\KitapciSistemi.Core.pdb
+C:\Users\MK\Documents\Visual Studio 2015\Projects\KitapciSistemi\KitapciSistemi.Core\obj\Debug\KitapciSistemi.Core.csprojResolveAssemblyReference.cache

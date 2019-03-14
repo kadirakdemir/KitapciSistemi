@@ -1,0 +1,12 @@
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\KitapciSistemi.Data.dll.config
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\KitapciSistemi.Data.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\KitapciSistemi.Data.pdb
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\EntityFramework.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\KitapciSistemi.Core.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\KitapciSistemi.Core.pdb
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\EntityFramework.xml
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\obj\Debug\KitapciSistemi.Data.csprojResolveAssemblyReference.cache
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\obj\Debug\KitapciSistemi.Data.dll
+c:\users\mk\documents\visual studio 2015\Projects\KitapciSistemi\KitapciSistemi.Data\obj\Debug\KitapciSistemi.Data.pdb

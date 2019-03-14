@@ -1,0 +1,49 @@
+﻿@model KitapciSistemi.Core.DataBase.Entities.Kategori
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-content ">
+    <div class="container-fluid">
+        <!-- Basic form -->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-family:'Times New Roman', Times, serif">Kategori Ekle</h1>
+                <div class="panel panel-default">
+                    <header class="panel-heading"></header>
+                    <div class="panel-body">
+                        @Html.HiddenFor(x => x.ID)
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Üst Kategori</label>
+                                @Html.DropDownListFor(model => model.AltKategoriID, new SelectList(ViewBag.KategoriListe, "ID", "KategoriAdi"), ("Seçiniz"), new { @class = "form-control", id = "AltKategoriID" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Kategori Adı</label>
+                                @Html.TextBoxFor(x => x.KategoriAdi, new { @class = "form-control", id = "kategoriAdi", placeholder = "Kategori Adı" })
+                                @Html.ValidationMessageFor(model => model.KategoriAdi, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Kategori Url</label>
+                                @Html.TextBoxFor(x => x.Aciklama, new { @class = "form-control", id = "aciklama", placeholder = "Acıklama" })
+                                @Html.ValidationMessageFor(model => model.Aciklama, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    @Html.CheckBoxFor(x => x.IsActive, new { @checked = "checked", id = "isActive" }) Aktif Mi ?
+                                    @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+                                </label>
+                            </div>
+                            <a href="#" class="btn btn-default" onclick="KategoriDuzenle();">Güncelle</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Basic form -->
+
+    </div>
+</div>
